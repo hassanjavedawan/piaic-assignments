@@ -2,7 +2,7 @@
 
 //  Q18 -- Seeing the World: Think of at least five places in the world you’d like to visit.
 
-var city = ["Karachi", "Lahore", "Islamabad", "Quetta", "Pashawar"];
+let city = ["Karachi", "Lahore", "Islamabad", "Quetta", "Pashawar"];
 
 //   array in original order
 
@@ -10,10 +10,34 @@ console.log(city);
 
 //   array in alphabetical order
 
-city.sort();
-console.log(city);
+console.log(city.sort());
 
 
-//   array is still in its original
 
-console.log(city.slice());
+
+//   Reverse the order of your list.l
+console.log(city.reverse());
+
+
+//    list to show it’s back to its original order
+console.log(city.sort());
+
+//  Print the array to show that its order has been changed.
+
+city.forEach(element => {
+    console.log(element);
+});
+
+
+
+//  Print the reverse array to show that its order has been changed.
+
+city.reverse().forEach(element => {
+    console.log(element);
+});
+
+
+
+
+
+

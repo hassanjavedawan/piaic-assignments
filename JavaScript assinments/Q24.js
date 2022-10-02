@@ -3,6 +3,11 @@
 
 
 // Tests for equality and inequality with strings
+let person = "ali";
+var check = person === "ali" ? "Correct anwser":"InCorrect anwser";
+
+
+
 let num = 10;
 var check = num === 10 ? "Correct anwser":"InCorrect anwser";
 var check = num != 10 ? "Correct anwser":"InCorrect anwser";
@@ -12,7 +17,7 @@ var check = num != 10 ? "Correct anwser":"InCorrect anwser";
 
 // Tests using the lower case function
 let userName = "Hassan"
-var check = userName.toLocaleLowerCase ? "Correct anwser":"InCorrect anwser";
+var check = userName === userName.toLocaleLowerCase ? "Correct anwser":"InCorrect anwser";
 console.log(check);
 
 
