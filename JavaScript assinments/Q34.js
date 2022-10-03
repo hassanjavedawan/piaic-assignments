@@ -4,5 +4,8 @@ let favorite_pizza = ["brodway","debaker","rehan"];
 
 
 favorite_pizza.forEach(element => {
-    console.log(`I like ${element} pizza`);
+    console.log(`I like ${element} pizza!`);
 });
+
+console.log(`I really love pizza.`);
+

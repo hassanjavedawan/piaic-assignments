@@ -1,26 +1,72 @@
+/** @format */
+
 //  Q23 -- Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
 
-let motorcycle = "Yamaha"
-var check = motorcycle ==="Yamaha" ? "predict True." : "predict False";
-console.log(check );
+// 1
+let motorcycle = "Yamaha";
+motorcycle === "Yamaha"
+  ? console.log("predict True.")
+  : console.log("predict False");
+
+// 2
+let MyHomeTown = "Yamaha";
+MyHomeTown === "Attock"
+  ? console.log("predict True.")
+  : console.log("predict False");
+
+// 3
+let course = "web3&Metaverse";
+course === "web3&Metaverse"
+  ? console.log("predict True.")
+  : console.log("predict False");
+
+// 4
+let phase = "Q1";
+phase === "Q1" ? console.log("predict True.") : console.log("predict False");
+
+// 5
+let car = "Audi";
+  car === "subaru"
+    ? console.log("predict True.")
+    : console.log("predict False");
+
+    // 6
+let city = "Islamabad";
+city === "Islamabad"
+    ? console.log("predict True.")
+    : console.log("predict False");
 
 
-let MyHomeTown = "Yamaha"
-var check = MyHomeTown ==="Attock" ? "predict True." : "predict False";
-console.log(check);
+    // 7
+let job = "React";
+  job === "Yamaha"
+    ? console.log("predict True.")
+    : console.log("predict False");
 
 
-let course = "web3&Metaverse"
-var check = course ==="web3&Metaverse" ? "predict True." : "predict False";
-console.log(check);
 
 
-let phase = "Q1"
-var check = phase ==="Q1" ? "predict True." : "predict False";
+    // 8
+let ownerName = "adnin";
+ownerName === "admin"
+    ? console.log("predict True.")
+    : console.log("predict False");
 
-console.log(check);
 
-let job = "React"
-var check = job ==="Yamaha" ? "predict True." : "predict False";
 
-console.log(check);
+
+    // 9
+let gender = "Male";
+gender === "Male"
+    ? console.log("predict True.")
+    : console.log("predict False");
+
+
+
+
+    // 10
+let age = 24;
+
+  age === 18
+    ? console.log("predict True.")
+    : console.log("predict False");

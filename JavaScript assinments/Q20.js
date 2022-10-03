@@ -4,6 +4,6 @@
 var cites = ["Karachi", "Lahore", "Islamabad", "Quetta", "Pashawar"];
 
 
-city.forEach(element => {
+cites.forEach(element => {
     console.log(element);
 });

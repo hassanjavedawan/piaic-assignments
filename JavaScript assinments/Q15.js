@@ -5,16 +5,15 @@ let arr = ["Hassan","umar","Jamil","suleman"]
 console.log(arr);
 
 // this person not join dinner
-let notCome = arr.shift();
-
-// remain Guest
-console.log(arr);
+console.log(` Sorry, ${arr[0]} can't make it to dinner.`);
+arr.shift();
 
 
 // add invite new Guest
 
-let addNew = arr.unshift("Ali")
-console.log(arr);
+arr.unshift("Ali")
+
+
 arr.forEach(element => {
     console.log(`${element} please come to dinner` );
 });

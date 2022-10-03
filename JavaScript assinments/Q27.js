@@ -9,5 +9,6 @@ let check =
     ? alert("player earned 5 points")
     : alien_color === "yellow"
     ? alert("player earned 10 points")
-    : alien_color === "red";
-alert("player earned 15 points");
+    : alien_color === "red"
+    ? alert("player earned 15 points")
+    : null;

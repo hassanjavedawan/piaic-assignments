@@ -4,13 +4,23 @@ let magician  = ["Adil", "Raouf","Kashif", "Rafiq"]
 
 
 const make_great =(magician) =>{
-    // without  the great text
-    console.log(magician);
+    
+//  create new array with great message
+    let great_magicians = [];
+    for (let i = 0; i < magician.length; i++) {
+        const element = magician[i];
+        great_magicians.push(element + "the great")
+    
+    }
 
-    // with  the great text
+    great_magicians.forEach(element => {
+       console.log(element); 
+    });
+
+    // original array
 
     magician.forEach(element => {        
-    console.log(" the great " + element)
+    console.log( element)
 });
 }
 

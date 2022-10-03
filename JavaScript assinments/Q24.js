@@ -2,24 +2,46 @@
 
 
 
-// Tests for equality and inequality with strings
+// Test for equality  
 let person = "ali";
-var check = person === "ali" ? "Correct anwser":"InCorrect anwser";
+person === "ali" ? console.log(true):console.log(false);
 
 
-
-let num = 10;
-var check = num === 10 ? "Correct anwser":"InCorrect anwser";
-var check = num != 10 ? "Correct anwser":"InCorrect anwser";
+// test for inequality with strings
+let user = "hassan";
+ user != "hassam" ? console.log(true):console.log(false);
 
 
 
 
 // Tests using the lower case function
 let userName = "Hassan"
-var check = userName === userName.toLocaleLowerCase ? "Correct anwser":"InCorrect anwser";
-console.log(check);
+userName === userName.toLocaleLowerCase ? console.log(true):console.log(false);
 
+
+
+
+
+
+// Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+
+var time = +prompt("Enter now time");
+
+if (time >= 0000 && time < 1200) {
+    console.log("Good Morning!")
+}
+else if (time >= 1200 && time < 1700) {
+    console.log("Good Afternoon!")
+}
+else if (time >= 1700 && time < 2100) {
+    console.log("Good Evening!")
+}
+else if (time >= 2100 && time <= 2359) {
+    console.log("Good Night!")
+}
+else {
+    console.log("please enter coreect time")
+}
 
 
 
@@ -36,25 +58,23 @@ if (studentName  === "Hassan Javed" || Course === "Web3" ) {
 }
 
 
+// Test whether an item is in a array
 
+let Vegetable = ["Potato","Tomato","Garlic","Beans","Pumpkin"]
 
+if (Vegetable.includes("Potto")) {
+    console.log("yes");
+}else{
+    console.log("no");
 
-// Ngreater than and less than, greater than or equal to, and less than or equal to
-var T = 32;
-if (T > 40) {
-    console.log("It is too hot outside")
-}
-else if (T > 30) {
-    console.log("The Weather today is Normal")
-}
-
-else if (T > 20) {
-    console.log("Today’s Weather is cool")
 }
 
-else if (T > 10) {
-    console.log("OMG! Today’s weather is so Cool")
+// Test whether an item is not in a array
+
+
+if (Vegetable.indexOf("Potto") != -1) {
+    console.log("yes");
+}else{
+    console.log("no");
+
 }
-
-
-

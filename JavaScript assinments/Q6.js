@@ -2,8 +2,11 @@
 
 //  Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
 
-const test = "\t Hello \n\t\t World \t";
-console.log(test);
 
-const nospaces = "Hello world";
-console.log(nospaces);
+
+// include some whitespace
+const person = "\t Hassan Javed \t";
+console.log(person);
+
+//  striping the white spaces
+console.log(person.replace(/^\s+/, '').replace(/\s+$/, ''));
