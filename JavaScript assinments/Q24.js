@@ -19,7 +19,7 @@ let userName = "Hassan"
 userName === userName.toLocaleLowerCase ? console.log(true):console.log(false);
 
 
-
+ 
 
 
 

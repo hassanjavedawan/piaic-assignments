@@ -5,8 +5,8 @@
 let alien_color = "green";
 
 
-let check =
   alien_color === "green"
     ? alert("player just earned 5 points for shooting the alien")
-
-    : alert("You just earned 10 points!");
+    : alien_color === "red"
+    ? alert("You just earned 10 points!")
+    : alert("no color match");
